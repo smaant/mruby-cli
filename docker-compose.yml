@@ -1,8 +1,8 @@
 compile: &defaults
   build: .
   volumes:
-    - .:/home/mruby/code:rw
-  command: rake compile
+    - /home/ubuntu/mruby-cli:/home/mruby/code:rw
+  command: pwd
 test:
   <<: *defaults
   command: ls
