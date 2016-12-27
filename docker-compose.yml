@@ -5,7 +5,7 @@ compile: &defaults
   command: rake compile
 test:
   <<: *defaults
-  command: rake test
+  command: ls
 bintest:
   <<: *defaults
   command: rake test:bintest
