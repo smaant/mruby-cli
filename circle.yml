@@ -22,4 +22,4 @@ stages:
       - type: setup-docker-engine
       - type: shell
         name: Run Tests
-        command: docker-compose run test
+        command: pwd; ls -la; docker-compose run test
