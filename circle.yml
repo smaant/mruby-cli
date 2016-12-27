@@ -1,7 +1,7 @@
 version: 2
 executorType: docker
 containerInfo:
-  - image: hone/mruby-cli:latest
+  - image: circleci/build-image:ubuntu-14.04-XXL-887-0e8804f
 
 stages:
   build:
